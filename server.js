@@ -44,3 +44,5 @@ app.get("/users", (req, res) => {
 //we need to listen for a connection to know our server is running
 app.set("port", process.env.PORT || 5500);
 app.listen(port, ( console.log(`${app.locals.title} is listening on Port: ${port}`)));
+
+export default app;
